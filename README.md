@@ -43,3 +43,9 @@ With the cleaned and transformed data, I loaded it into a cloud-based database (
 #### Step 5: Dashboard Creation
 Finally, I visualized the insights using Superset / Metabase / Lookerstudio. The dashboards displayed key metrics, such as top-performing product categories, customer demographics, and shipping efficiency.
 
+![image](https://github.com/user-attachments/assets/0420144a-7ea3-4fc9-86fc-96093814022c)
+
+![image](https://github.com/user-attachments/assets/a60360c6-0574-4165-9248-3534669a56b9)
+
+![image](https://github.com/user-attachments/assets/5c33c70a-284e-4819-b7a2-20fd2000ec43)
+
