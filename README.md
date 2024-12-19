@@ -13,7 +13,7 @@ Business Administration Finance ( Sept 2018 - Sept 2021 )
 * Automated the generation of KPI reports
 - Integrating data from multiple platforms using SQL queries and Python ETL scripts. Consolidated data into a unified dashboard, eliminating the need for manual extraction from disparate platforms and reducing report preparation time by 80%. This enabled management to access up-to-date KPIs in real-time, supporting faster and more informed decision-making.
 
-## Projects
+## Portfolio
 ### Merchandise Sales Analysis: Driving Insights for Growth
 In this project, I analyzed a merchandise sales dataset to uncover patterns, optimize sales strategies, and improve customer satisfaction. The goal was to build a robust data pipeline and create dynamic visualizations to assist stakeholders in making data-driven decisions.
 
