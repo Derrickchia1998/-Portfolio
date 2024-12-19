@@ -49,3 +49,4 @@ Finally, I visualized the insights using Superset / Metabase / Lookerstudio. The
 
 ![image](https://github.com/user-attachments/assets/5c33c70a-284e-4819-b7a2-20fd2000ec43)
 
+![image](https://github.com/user-attachments/assets/bb23f39c-204f-4e40-87de-73c4b5774de4)
