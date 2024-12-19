@@ -43,10 +43,67 @@ With the cleaned and transformed data, I loaded it into a cloud-based database (
 #### Step 5: Dashboard Creation
 Finally, I visualized the insights using Superset / Metabase / Lookerstudio. The dashboards displayed key metrics, such as top-performing product categories, customer demographics, and shipping efficiency.
 
-![image](https://github.com/user-attachments/assets/0420144a-7ea3-4fc9-86fc-96093814022c)
+![image](https://github.com/user-attachments/assets/1a170e5f-9380-48cd-9b2d-d1a6925cf882)
+##### Key Observations:
+- Clothing dominates both total sales (637.2K) and record count (3.7K), indicating its popularity.
+- Ornaments are the second most popular, with total sales of 155.8K and a record count of 2.3K.
+- Other products contribute minimally to sales (63.5K) and records (1.4K).
+- Male buyers significantly outnumber female buyers, contributing 600.3K to total sales versus 256.1K for females.
+- Male record count is also higher (5,188) compared to females (2,206).
+##### Insights:
+- Prioritize marketing and inventory for clothing to capitalize on demand.
+- Consider strategies to boost sales in underperforming categories.
+- Develop gender-specific campaigns to balance gender contributions.
+- Explore why male buyers contribute more to both metrics.
+  
+![image](https://github.com/user-attachments/assets/555f91bb-c207-4b57-b1b3-14ab95b70b8a)
+##### Key Observations:
+- Average total sales per age group range between 44.7K to 50.1K, with minimal variation.
+- Record counts are consistent across ages, showing no significant drop-off with increasing age.
+##### Insights:
+- The even distribution suggests a broad age appeal.
+- Further segmentation could help uncover more granular insights.
 
 ![image](https://github.com/user-attachments/assets/a60360c6-0574-4165-9248-3534669a56b9)
-
+##### Key Observations:
+- Sales fluctuate slightly but remain within the range of 66.1K to 80.7K across the months.
+- May 2024 shows the highest sales peak, while November 2024 has a sharp drop.
+##### Insights:
+- Analyze seasonal trends or promotional events affecting May's peak.
+- Address potential causes for the drop in November.
+  
 ![image](https://github.com/user-attachments/assets/5c33c70a-284e-4819-b7a2-20fd2000ec43)
-
+##### Key Observations:
+- Male buyers account for 70.1% of sales, with females at 29.9%.
+- Domestic shipping contributes more to total sales (54.8%) compared to international shipping (45.2%).
+##### Insights:
+- Explore reasons for higher male participation.
+- Expand international shipping capabilities to grow global sales.
+  
 ![image](https://github.com/user-attachments/assets/bb23f39c-204f-4e40-87de-73c4b5774de4)
+##### Key Observations:
+- Total sales are highest for age groups 20, 24, and 35.
+- Quantity distribution is relatively stable but slightly lower for buyers aged 33 and higher.
+##### Insights:
+- Age-targeted campaigns could maximize contributions from high-spending groups.
+- Investigate why older buyers have lower quantity purchases.
+
+#### Other Analytics
+##### Cohort Analysis
+- Join table to obtain customer id where t1.order_id = t2.order_id
+- Create a column indicating the first purchase date for each customer.
+- Calculate how many months have passed since the first purchase for each subsequent transaction.
+- Aggregate metrics like revenue, number of purchases, or retention rate for each cohort by time intervals (e.g., months, quarters).
+
+![image](https://github.com/user-attachments/assets/216ee756-8e83-407a-979a-a3b8b171be3c)
+
+##### Cohort Analysis
+- Collect product-level data including selling price, COGS, and discounts.
+- Ensure overhead or fixed costs (like shipping) are allocated appropriately.
+- Calculate gross profit as Selling Price - COGS.
+- Add a column for profit margin percentage: (Gross Profit / Selling Price) * 100.
+- Analyze profitability by product category, customer segments, or region.
+
+##### Aggregate Profitability by Product / Customer / Time ( monthly ) / Region
+![image](https://github.com/user-attachments/assets/c3b024c8-848e-404b-8fb0-c0c10b374649)
+
